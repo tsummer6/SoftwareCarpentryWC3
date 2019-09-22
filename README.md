@@ -9,8 +9,8 @@ your repository.
 * [Sources](#sources)
 * [File List](#file-list)
 ## General Info
-This project prints a simple Hello World on the console.
-This project adds together all the even numbers between 1 and 100, and prints that value to the terminal
+This project prints a simple Hello World on the console, and adds together 
+all the even numbers between 1 and 100, and prints that value to the terminal.
 ## Technologies
 Project is created with:
 * Python version: 3.7.3
@@ -23,17 +23,17 @@ To run this project, install it locally using npm:
 To add together all the even numbers between 1 and 100. Then displays that number to the terminal. <br>
 def mundaneMath(): <br>
     # This is an empty array to store the even numbers <br>
-    a = [] <br>
+    <p> a = [] <br>
     # A loop to increment from 1 to 100 <br>
-    for i in range(1, 101): <br>
+    <p> for i in range(1, 101): <br>
         # This finds the even numbers from 1 to 100 <br>
         # and stores them in the array <br>
-        if (i % 2 == 0): <br>
-            a.append(i) <br>
+        <p> if (i % 2 == 0): <br>
+            <p> a.append(i) <br>
     # Adds the even numbers together and stores them in the variable x <br>
-    x = sum(a) <br>
+    <p> x = sum(a) <br>
     # Prints the output <br>
-    print(x) <br>
+    <p> print(x) <br>
 ## Sources
 EN.540.635 - Software Carpentry by Henry C. Herbol
 ## File List
