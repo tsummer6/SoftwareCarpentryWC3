@@ -23,10 +23,19 @@ To run this project, use a Text Editor such as Sumblim Text to open the files:
 * hello.py <br>
 
 Then use the Anaconda Prompt to run the files in Python 3.
+## Sources
+EN.540.635 - Software Carpentry by Henry C. Herbol
+* https://www.thecomputationalist.com/Weekly_Challenges/WC3_GitHub_Online.pdf
+## File List
+Project contains the following files in the repository:
+* mundaneMath.py - Located in the master branch
+* hello.py - Located in the master branch
+* index.html - Located in the gh-pages branch (pushed to the origin)
+* .nojekyll - Located in the gh-pages branch (pushed to the origin)
 ## Example of Use
-To add together all the even numbers between 1 and 100. Then displays that number to the terminal. <br>
-def mundaneMath():  
-    
+To add together all the even numbers between 1 and 100. Then displays that number to the terminal:
+
+def mundaneMath():       
     # This is an empty array to store the even numbers  
     a = []  
     # A loop to increment from 1 to 100  
@@ -39,12 +48,4 @@ def mundaneMath():
     x = sum(a)  
     # Prints the output  
     print(x)  
-## Sources
-EN.540.635 - Software Carpentry by Henry C. Herbol
-* https://www.thecomputationalist.com/Weekly_Challenges/WC3_GitHub_Online.pdf
-## File List
-Project contains the following files in the repository:
-* mundaneMath.py - Located in the master branch
-* hello.py - Located in the master branch
-* index.html - Located in the gh-pages branch (pushed to the origin)
-* .nojekyll - Located in the gh-pages branch (pushed to the origin)
+
