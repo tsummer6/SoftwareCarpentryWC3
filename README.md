@@ -7,7 +7,7 @@ your repository.
 * [Setup](#setup)
 * [Sources](#sources)
 * [File List](#file-list)
-* [Example of Use](#example-of-use)
+* [Sample Code](#sample-code)
 ## General Info
 This project prints a simple Hello World on the console, and adds together 
 all the even numbers between 1 and 100, and prints that value to the terminal.
@@ -32,8 +32,9 @@ Project contains the following files in the repository:
 * hello.py - Located in the master branch
 * index.html - Located in the gh-pages branch (pushed to the origin)
 * .nojekyll - Located in the gh-pages branch (pushed to the origin)
-## Example of Use
-To add together all the even numbers between 1 and 100. Then displays that number to the terminal:
+## Sample Code
+Sample of the code used to add all the even numbers between 1 and 100. 
+Then displays that number to the terminal:
 
     def mundaneMath():           
         # This is an empty array to store the even numbers  
