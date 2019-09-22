@@ -27,7 +27,8 @@ Then use the Anaconda Prompt to run the files in Python 3.
 To add together all the even numbers between 1 and 100. Then displays that number to the terminal. <br>
 def mundaneMath(): <br>
     # This is an empty array to store the even numbers <br>
-    <p> a = [] <br>
+    
+        a = [] <br>
     # A loop to increment from 1 to 100 <br>
     <p> for i in range(1, 101): <br>
         # This finds the even numbers from 1 to 100 <br>
