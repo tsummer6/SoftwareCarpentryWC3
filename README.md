@@ -1,5 +1,5 @@
 ## SoftwareCarpentryWC3
-In this weeks lab for Software Carpentry, I have created a website using the built-in feature of GitHub, called “GitHub Pages”. Using a fairly simple I first made a new repository, a website, and added that website to the repository. To visit a website should you choose to make one yourself: go to the website “USER.github.io/REPO”, where “USER” is your GitHub username, and “REPO” is the name of
+In this weeks lab for Software Carpentry, I have created a website using the built-in feature of GitHub, called “GitHub Pages”. Using a fairly simple I first made a new repository (SoftwareCarpentryWC3), a website, and added that website to the repository. To visit a website should you choose to make one yourself: go to the website “USER.github.io/REPO”, where “USER” is your GitHub username, and “REPO” is the name of
 your repository.
 ## Table of Content
 * [General Info](#general-info)
@@ -7,8 +7,7 @@ your repository.
 * [Setup](#setup)
 * [Example of Use](#example-of-use)
 * [Sources](#sources)
-* [File List(#file-list)
-
+* [File List](#file-list)
 ## General Info
 This project prints a simple Hello World on the console.
 This project adds together all the even numbers between 1 and 100, and prints that value to the terminal
@@ -23,12 +22,6 @@ To run this project, install it locally using npm:
 ## Example of Use
 To add together all the even numbers between 1 and 100. Then displays that number to the terminal. 
 def mundaneMath():
-    '''
-    **Parameters**
-        None
-    **Returns**
-        None
-    '''
     # This is an empty array to store the even numbers
     a = []
     # A loop to increment from 1 to 100
@@ -44,7 +37,7 @@ def mundaneMath():
 ## Sources
 EN.540.635 - Software Carpentry by Henry C. Herbol
 ## File List
-Project uses:
+Project contains the following files in the repository:
 * mundaneMath.py - Located in the master branch
 * hello.py - Located in the master branch
 * index.html - Located in the gh-pages branch (pushed to the origin)
