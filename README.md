@@ -1,7 +1,22 @@
-# SoftwareCarpentryWC3
-In this weeks lab for Software Carpentry, I have created a website using the built-in feature of GitHub, called “GitHub Pages”. Using a   fairly simple I first made a new repository, a website, and added that website to the repository. To visit a website should you choose to make one yourself: go to the website “USER.github.io/REPO”, where “USER” is your GitHub username, and “REPO” is the name of
+## SoftwareCarpentryWC3
+In this weeks lab for Software Carpentry, I have created a website using the built-in feature of GitHub, called “GitHub Pages”. Using a fairly simple I first made a new repository, a website, and added that website to the repository. To visit a website should you choose to make one yourself: go to the website “USER.github.io/REPO”, where “USER” is your GitHub username, and “REPO” is the name of
 your repository.
-# File List
+## Table of Content
+* [General Info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Scope of Functionality](#scope-of-functionality)
+* [Example of Use](#example-of-use)
+* [Illustration](#illustration)
+* [sources](#sources)
+## General Info
+## Technologies
+## Setup
+## Scope of Functionality 
+## Example of Use
+## File List
+## Illustration
+## Sources
 mundaneMath.py - Located in the master branch
 hello.py - Located in the master branch
 index.html - Located in the gh-pages branch (pushed to the origin)
