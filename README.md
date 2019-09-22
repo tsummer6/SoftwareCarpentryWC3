@@ -26,19 +26,19 @@ Then use the Anaconda Prompt to run the files in Python 3.
 ## Example of Use
 To add together all the even numbers between 1 and 100. Then displays that number to the terminal. <br>
 def mundaneMath(): <br>
-    # This is an empty array to store the even numbers <br>
     
-        a = [] <br>
+    # This is an empty array to store the even numbers <br> 
+    a = [] <br>
     # A loop to increment from 1 to 100 <br>
-    <p> for i in range(1, 101): <br>
+        for i in range(1, 101): <br>
         # This finds the even numbers from 1 to 100 <br>
         # and stores them in the array <br>
-        <p> if (i % 2 == 0): <br>
-            <p> a.append(i) <br>
+        if (i % 2 == 0): <br>
+            a.append(i) <br>
     # Adds the even numbers together and stores them in the variable x <br>
-    <p> x = sum(a) <br>
+    x = sum(a) <br>
     # Prints the output <br>
-    <p> print(x) <br>
+    print(x) <br>
 ## Sources
 EN.540.635 - Software Carpentry by Henry C. Herbol
 ## File List
