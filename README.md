@@ -25,22 +25,23 @@ To run this project, use a Text Editor such as Sumblim Text to open the files:
 Then use the Anaconda Prompt to run the files in Python 3.
 ## Example of Use
 To add together all the even numbers between 1 and 100. Then displays that number to the terminal. <br>
-def mundaneMath(): <br>
+def mundaneMath():  
     
-    # This is an empty array to store the even numbers <br> 
-    a = [] <br>
-    # A loop to increment from 1 to 100 <br>
-        for i in range(1, 101): <br>
-        # This finds the even numbers from 1 to 100 <br>
-        # and stores them in the array <br>
-        if (i % 2 == 0): <br>
-            a.append(i) <br>
+    # This is an empty array to store the even numbers  
+    a = []  
+    # A loop to increment from 1 to 100  
+        for i in range(1, 101):  
+            # This finds the even numbers from 1 to 100  
+            # and stores them in the array  
+            if (i % 2 == 0):  
+                a.append(i)  
     # Adds the even numbers together and stores them in the variable x <br>
-    x = sum(a) <br>
-    # Prints the output <br>
-    print(x) <br>
+    x = sum(a)  
+    # Prints the output  
+    print(x)  
 ## Sources
 EN.540.635 - Software Carpentry by Henry C. Herbol
+* https://www.thecomputationalist.com/Weekly_Challenges/WC3_GitHub_Online.pdf
 ## File List
 Project contains the following files in the repository:
 * mundaneMath.py - Located in the master branch
