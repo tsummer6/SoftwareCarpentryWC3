@@ -5,28 +5,23 @@ your repository.
 * [General Info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Scope of Functionality](#scope-of-functionality)
 * [Example of Use](#example-of-use)
-* [Illustration](#illustration)
-* [sources](#sources)
+* [Sources](#sources)
+* [File List(#file-list)
+
 ## General Info
+This project prints a simple Hello World on the console.
+This project adds together all the even numbers between 1 and 100, and prints that value to the terminal
 ## Technologies
 Project is created with:
 * Python version: 3.7.3
 * Sublime Text version: 3.2.1
-
+Project uses:
+* Anaconda Prompt version: 3.2.1
 ## Setup
-## Scope of Functionality 
+To run this project, install it locally using npm:
 ## Example of Use
-## File List
-## Illustration
-## Sources
-mundaneMath.py - Located in the master branch
-hello.py - Located in the master branch
-index.html - Located in the gh-pages branch (pushed to the origin)
-.nojekyll - Located in the gh-pages branch (pushed to the origin)
-# Sample Code
-This is the function to add together all the even numbers between 1 and 100. Then displays that number to the terminal. 
+To add together all the even numbers between 1 and 100. Then displays that number to the terminal. 
 def mundaneMath():
     '''
     **Parameters**
@@ -46,3 +41,11 @@ def mundaneMath():
     x = sum(a)
     # Prints the output
     print(x)
+## Sources
+EN.540.635 - Software Carpentry by Henry C. Herbol
+## File List
+Project uses:
+* mundaneMath.py - Located in the master branch
+* hello.py - Located in the master branch
+* index.html - Located in the gh-pages branch (pushed to the origin)
+* .nojekyll - Located in the gh-pages branch (pushed to the origin)
