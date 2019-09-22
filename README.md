@@ -11,6 +11,10 @@ your repository.
 * [sources](#sources)
 ## General Info
 ## Technologies
+Project is created with:
+* Python version: 3.7.3
+* Sublime Text version: 3.2.1
+
 ## Setup
 ## Scope of Functionality 
 ## Example of Use
