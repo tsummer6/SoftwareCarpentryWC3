@@ -44,7 +44,7 @@ To add together all the even numbers between 1 and 100. Then displays that numbe
                 # and stores them in the array  
                 if (i % 2 == 0):  
                     a.append(i)  
-        # Adds the even numbers together and stores them in the variable x <br>
+        # Adds the even numbers together and stores them in the variable x 
         x = sum(a)  
         # Prints the output  
         print(x)  
