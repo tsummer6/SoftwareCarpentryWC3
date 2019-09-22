@@ -6,3 +6,24 @@ mundaneMath.py - Located in the master branch
 hello.py - Located in the master branch
 index.html - Located in the gh-pages branch (pushed to the origin)
 .nojekyll - Located in the gh-pages branch (pushed to the origin)
+# Sample Code
+This is the function to add together all the even numbers between 1 and 100. Then displays that number to the terminal. 
+def mundaneMath():
+    '''
+    **Parameters**
+        None
+    **Returns**
+        None
+    '''
+    # This is an empty array to store the even numbers
+    a = []
+    # A loop to increment from 1 to 100
+    for i in range(1, 101):
+        # This finds the even numbers from 1 to 100
+        # and stores them in the array
+        if (i % 2 == 0):
+            a.append(i)
+    # Adds the even numbers together and stores them in the variable x
+    x = sum(a)
+    # Prints the output
+    print(x)
