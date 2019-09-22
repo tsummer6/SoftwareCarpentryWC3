@@ -5,9 +5,9 @@ your repository.
 * [General Info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Example of Use](#example-of-use)
 * [Sources](#sources)
 * [File List](#file-list)
+* [Example of Use](#example-of-use)
 ## General Info
 This project prints a simple Hello World on the console, and adds together 
 all the even numbers between 1 and 100, and prints that value to the terminal.
@@ -35,17 +35,17 @@ Project contains the following files in the repository:
 ## Example of Use
 To add together all the even numbers between 1 and 100. Then displays that number to the terminal:
 
-def mundaneMath():       
-    # This is an empty array to store the even numbers  
-    a = []  
-    # A loop to increment from 1 to 100  
-        for i in range(1, 101):  
-            # This finds the even numbers from 1 to 100  
-            # and stores them in the array  
-            if (i % 2 == 0):  
-                a.append(i)  
-    # Adds the even numbers together and stores them in the variable x <br>
-    x = sum(a)  
-    # Prints the output  
-    print(x)  
+    def mundaneMath():           
+        # This is an empty array to store the even numbers  
+        a = []  
+        # A loop to increment from 1 to 100  
+            for i in range(1, 101):  
+                # This finds the even numbers from 1 to 100  
+                # and stores them in the array  
+                if (i % 2 == 0):  
+                    a.append(i)  
+        # Adds the even numbers together and stores them in the variable x <br>
+        x = sum(a)  
+        # Prints the output  
+        print(x)  
 
