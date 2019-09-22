@@ -20,7 +20,7 @@ Project uses:
 ## Setup
 To run this project, use a Text Editor such as Sumblim Text to open the files:
 * mundaneMath.py 
-* hello.py 
+* hello.py <br>
 Then use the Anaconda Prompt to run the files in Python 3.
 ## Example of Use
 To add together all the even numbers between 1 and 100. Then displays that number to the terminal. <br>
